@@ -1,0 +1,115 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(37,37,40);
+    padding: 20px;
+    margin-top: -20px;
+    width: 100%;
+    margin-left: -20px;
+    align-items: center;
+ 
+}
+
+.header_2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.login_with_google{
+    background-color: rgb(253,193,10);
+    color:white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+.img_google{
+    height: 20px;
+    width: 20px;
+
+}
+.save_button{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+.user_name{
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(37,37,40);
+        
+        
+        
+     
+    }
+    .header__{
+        padding: 20px;
+    }
+    
+    .header_2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .login_with_google{
+        background-color: rgb(253,193,10);
+        color:white;
+        border: none;
+        outline: none;
+        padding: 7px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 10px;
+    
+    }
+    .img_google{
+        height: 20px;
+        width: 20px;
+    
+    }
+    .save_button{
+     
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color:rgb(0, 0, 0);
+        border: none;
+        outline: none;
+        padding: 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 600;
+        margin-right: 10px;
+        font-size: 10px;
+    
+    }
+    .user_name{
+        color: white;
+    }
+    .save_icon{
+        height: 10px !important;
+    }
+    
+}

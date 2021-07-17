@@ -1,0 +1,17 @@
+.editor{
+    padding: 20px;
+    flex: 0.5;
+    height:100vh !important;
+    
+}
+.CodeMirror{
+    border-radius: 7px;
+   
+}
+.editor_name{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 20px;
+    
+}

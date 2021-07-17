@@ -1,0 +1,146 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vw !important;
+}
+
+
+.intro_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex:0.5
+}
+
+.intro_image{
+    display: none;
+}
+
+.intro_header_text{
+    font-size: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+ 
+}
+
+.intro_body{
+    flex:1;
+    margin-top:20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.intro_body_header{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.intro_body_step{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+    color:white;
+}
+
+.buttons__intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.in_button{
+    font-size: 20px !important;
+    text-decoration:none;
+}
+
+.button__html{
+    color: rgb(235, 109, 60) !important;
+}
+
+.button__css{
+    color: rgb(85,154,187) !important;
+}
+
+.button__js{
+    color: rgb(192,192,51) !important;
+}
+
+/* responsvie design*/
+@media only screen and (max-width: 600px) {
+    .intro{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        height: 100vw !important;
+    }
+
+    .intro_header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex:0.5
+        
+    }
+    .intro_body{
+        flex:1;
+        margin-top:20px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+    .intro_body_header{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    
+    .intro_body_step{
+        font-size: 15px;
+        margin-top: 30px;
+        font-weight: 500;
+        color:rgb(0, 0, 0);
+        padding-right: 20px;
+        
+       
+    
+    }
+    
+    .buttons__intro{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .in_button{
+        font-size: 15px !important;
+        text-decoration:none;
+    }
+    .button__html{
+        color: rgb(235, 109, 60);
+    
+    }
+    .button__css{
+        color: rgb(85,154,187);
+    
+    }
+    .button__js{
+        color: rgb(192,192,51);
+    }
+    .intro_header_text{
+        font-size: 20px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+     
+    }
+ 
+
+    
+}
